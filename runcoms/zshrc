@@ -31,3 +31,6 @@ manydots-magic
 bindkey $terminfo[kcuu1] up-line-or-search
 bindkey $terminfo[kcud1] down-line-or-search
 bindkey "^R" history-incremental-search-backward
+
+export EDITOR='vim'
+export VISUAL='vim'
