@@ -41,3 +41,5 @@ zstyle ':prezto:module:editor:info:keymap:primary' format '%F{010}I%f'
 
 export PATH=$PATH:~/devtools
 export LSCOLORS=Gxfxcxdxbxegedabagacad
+
+setopt interactivecomments
