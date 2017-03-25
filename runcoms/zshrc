@@ -43,3 +43,6 @@ export PATH=$PATH:~/devtools
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 
 setopt interactivecomments
+
+# source local zshrc
+[[ ! -f ~/.zshrh.local ]] && source ~/.zshrc.local
