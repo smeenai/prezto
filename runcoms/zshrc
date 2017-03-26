@@ -51,4 +51,4 @@ export PATH=~/devtools:$PATH
 setopt interactivecomments
 
 # source local zshrc
-[[ ! -f ~/.zshrh.local ]] && source ~/.zshrc.local
+[[ ! -f ~/.zshrh.local ]] || source ~/.zshrc.local
