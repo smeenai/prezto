@@ -44,6 +44,7 @@ export KEYTIMEOUT=1
 zstyle ':prezto:module:editor:info:keymap:alternate' format '%F{009}N%f'
 zstyle ':prezto:module:editor:info:keymap:primary' format '%F{010}I%f'
 
+export GIT_PAGER=less
 export PATH=~/devtools:$PATH
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 
