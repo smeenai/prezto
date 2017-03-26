@@ -31,6 +31,7 @@ setopt COMPLETE_IN_WORD
 fpath+=~/.zsh
 autoload -Uz manydots-magic
 manydots-magic
+autoload -Uz match-llvm-clang
 
 bindkey $terminfo[kcuu1] up-line-or-search
 bindkey $terminfo[kcud1] down-line-or-search
